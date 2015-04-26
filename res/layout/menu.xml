@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="27dp"
+        android:clickable="false"
+        android:text="Flying"
+        android:textColor="#FF7F27"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/transparent"
+        android:onClick="openplay"
+        android:text="Play"
+        android:textColor="#FDD346"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/transparent"
+        android:onClick="opensetting"
+        android:text="Setting"
+        android:textColor="#00A2E8"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/transparent"
+        android:onClick="openexit"
+        android:text="Exit"
+        android:textColor="#ED1C24"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_marginLeft="45dp"
+        android:text="Doll"
+        android:textColor="#22B14C"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/transparent"
+        android:onClick="openabout"
+        android:text="About"
+        android:textColor="#22B14C"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
