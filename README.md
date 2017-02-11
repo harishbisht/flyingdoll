@@ -1,6 +1,6 @@
 # My first android game FLYING DOLL
 
- * support available till android jelly bean :+1:
+ * support available till android marshmallow :+1:
  * Some images of game
 
 ![Image of Doll](http://i.imgur.com/RnaSYlj.jpg)

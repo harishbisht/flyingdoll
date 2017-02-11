@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1015260699998",
+    "firebase_url": "https://flyingdoll-7dd36.firebaseio.com",
+    "project_id": "flyingdoll-7dd36",
+    "storage_bucket": "flyingdoll-7dd36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015260699998:android:3c449e9134c17b20",
+        "android_client_info": {
+          "package_name": "example.example.com.flyingdoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015260699998-t0ljpvtg1st3q6tnlfgdo3ik6l83j0p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcK3AewS70HrbxWsNGidQTOomO2OElmyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015260699998-t0ljpvtg1st3q6tnlfgdo3ik6l83j0p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

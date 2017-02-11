@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="260dp"
+    android:background="@color/color5"
+    android:padding="0dip" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/color8"
+        android:focusable="false"
+        android:gravity="center"
+        android:shadowColor="@android:color/transparent"
+        android:text="SETTINGS"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/musictoggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="ToggleButton"
+        android:checked="true" />
+
+    <ToggleButton
+        android:id="@+id/soundtoggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/musictoggle"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:checked="true"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/soundtoggle"
+        android:layout_marginLeft="42dp"
+        android:text="Sound   "
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/soundtoggle"
+        android:layout_marginTop="24dp"
+        android:text="Music   "
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/clearhighscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_toLeftOf="@+id/closebutton"
+        android:text="Clear High Score" />
+
+    <Button
+        android:id="@+id/closebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/clearhighscore"
+        android:layout_alignBottom="@+id/clearhighscore"
+        android:layout_alignLeft="@+id/musictoggle"
+        android:layout_marginLeft="22dp"
+        android:text="Close" />
+
+</RelativeLayout>
